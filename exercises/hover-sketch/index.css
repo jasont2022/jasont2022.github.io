@@ -1,0 +1,472 @@
+body {
+  display: relative;
+  background-color:black;
+  width: 80%;
+  height: 70%;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 5vh;
+}
+
+.time-block1 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block1:hover {
+  color: blue;
+  border-color: blue;
+  cursor: pointer;
+}
+
+.answer1 {
+  display: none;
+}
+
+.time-block1:hover p.time-display1 {
+  display:none;
+}
+
+.time-block1:hover p.answer1 {
+  display:block;
+}
+
+.time-block2 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block2:hover {
+  color: orange;
+  border-color: orange;
+  cursor: pointer;
+}
+
+.answer2 {
+  display: none;
+}
+
+.time-block2:hover p.time-display2{
+ display:none;
+}
+
+.time-block2:hover p.answer2{
+  display:block;
+}
+
+.time-block3 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block3:hover {
+  color: green;
+  border-color: green;
+  cursor: pointer;
+}
+
+.answer3 {
+  display: none;
+}
+
+.time-block3:hover p.time-display3{
+ display:none;
+}
+
+.time-block3:hover p.answer3{
+  display:block;
+}
+
+.time-block4 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block4:hover {
+  color: red;
+  border-color: red;
+  cursor: pointer;
+}
+
+.answer4 {
+  display: none;
+}
+
+.time-block4:hover p.time-display4{
+ display:none;
+}
+
+.time-block4:hover p.answer4{
+  display:block;
+}
+
+.time-block5 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block5:hover {
+  color: aqua;
+  border-color: aqua;
+  cursor: pointer;
+}
+
+.answer5 {
+  display: none;
+}
+
+.time-block5:hover p.time-display5{
+ display:none;
+}
+
+.time-block5:hover p.answer5{
+  display:block;
+}
+
+.time-block6 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block6:hover {
+  color: aqua;
+  border-color: aqua;
+  cursor: pointer;
+}
+
+.answer6 {
+  display: none;
+}
+
+.time-block6:hover p.time-display6{
+ display:none;
+}
+
+.time-block6:hover p.answer6{
+  display:block;
+}
+
+.time-block7 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block7:hover {
+  color: yellow;
+  border-color: yellow;
+  cursor: pointer;
+}
+
+.answer7 {
+  display: none;
+}
+
+.time-block7:hover p.time-display7{
+ display:none;
+}
+
+.time-block7:hover p.answer7{
+  display:block;
+}
+
+.time-block8 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block8:hover {
+  color: yellow;
+  border-color: yellow;
+  cursor: pointer;
+}
+
+.answer8 {
+  display: none;
+}
+
+.time-block8:hover p.time-display8{
+ display:none;
+}
+
+.time-block8:hover p.answer8{
+  display:block;
+}
+
+.time-block9 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block9:hover {
+  color: yellow;
+  border-color: yellow;
+  cursor: pointer;
+}
+
+.answer9 {
+  display: none;
+}
+
+.time-block9:hover p.time-display9{
+ display:none;
+}
+
+.time-block9:hover p.answer9{
+  display:block;
+}
+
+.time-block10 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block10:hover {
+  color:darkorchid;
+  border-color: darkorchid;
+  cursor: pointer;
+}
+
+.answer10 {
+  display: none;
+}
+
+.time-block10:hover p.time-display10{
+ display:none;
+}
+
+.time-block10:hover p.answer10{
+  display:block;
+}
+
+.time-block11 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block11:hover {
+  color:darkorchid;
+  border-color: darkorchid;
+  cursor: pointer;
+}
+
+.answer11 {
+  display: none;
+}
+
+.time-block11:hover p.time-display11{
+ display:none;
+}
+
+.time-block11:hover p.answer11{
+  display:block;
+}
+
+.time-block12 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block12:hover {
+  color:darkorchid;
+  border-color: darkorchid;
+  cursor: pointer;
+}
+
+.answer12 {
+  display: none;
+}
+
+.time-block12:hover p.time-display12{
+ display:none;
+}
+
+.time-block12:hover p.answer12{
+  display:block;
+}
+
+.time-block13 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block13:hover {
+  color: cornflowerblue;
+  border-color: cornflowerblue;
+  cursor: pointer;
+}
+
+.answer13 {
+  display: none;
+}
+
+.time-block13:hover p.time-display13 {
+ display:none;
+}
+
+.time-block13:hover p.answer13 {
+  display:block;
+}
+
+.time-block14 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block14:hover {
+  color: green;
+  border-color: green;
+  cursor: pointer;
+}
+
+.answer14 {
+  display: none;
+}
+
+.time-block14:hover p.time-display14{
+ display:none;
+}
+
+.time-block14:hover p.answer14{
+  display:block;
+}
+
+.time-block15 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block15:hover {
+  color: green;
+  border-color: green;
+  cursor: pointer;
+}
+
+.answer15 {
+  display: none;
+}
+
+.time-block15:hover p.time-display15{
+ display:none;
+}
+
+.time-block15:hover p.answer15{
+  display:block;
+}
+
+.time-block16 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block16:hover {
+  color: red;
+  border-color: red;
+  cursor: pointer;
+}
+
+.answer16 {
+  display: none;
+}
+
+.time-block16:hover p.time-display16{
+ display:none;
+}
+
+.time-block16:hover p.answer16{
+  display:block;
+}
+
+.time-block17 {
+  vertical-align: center;
+  width: 30%;
+  margin: 10px auto;
+  padding: 1vh;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+.time-block17:hover {
+  color: bisque;
+  border-color: bisque;
+  cursor: pointer;
+}
+
+.answer17 {
+  display: none;
+}
+
+.time-block17:hover p.time-display17{
+  display:none;
+}
+
+.time-block17:hover p.answer17{
+  display:block;
+}

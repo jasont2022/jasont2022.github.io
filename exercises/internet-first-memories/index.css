@@ -1,0 +1,22 @@
+body {
+  background-color: #FFFFFFFF;
+  color: #FF0000;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.question-container {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px auto 0px auto;
+  max-width: 800px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.question {
+  font-size: 20px;
+}
