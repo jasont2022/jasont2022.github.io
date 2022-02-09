@@ -5,57 +5,65 @@ body {
 /* Introduction Styling */
 .introduction {
   background-color: black;
-  color: white;
   width: 100%;
   padding: 1px 0;
-  height: 100vh;
+  height: 200vh;
 }
 
-.intro-q {
-  margin: 7vh auto;
+.introduction a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin: 20vh auto;
 }
 
-#intro-q-1 {
+.introduction a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.intro-q-1 {
+  margin-top: 0vh;
   font-size: 20px;
   text-align: left;
 }
 
-#intro-q-2 {
+.intro-q-2 {
   font-size: 20px;
   text-align: right;
 }
 
-#intro-q-3 {
+.intro-q-3 {
   font-size: 20px;
   text-align: left;
 }
 
-#intro-q-4 {
+.intro-q-4 {
   font-size: 30px;
   text-align: right;
 }
 
-#intro-q-5 {
+.intro-q-5 {
   font-size: 30px;
   text-align: left;
 }
 
-#intro-q-6 {
+.intro-q-6 {
   font-size: 30px;
   text-align: right;
 }
 
-#intro-q-7 {
+.intro-q-7 {
   font-size: 40px;
   text-align: left;
 }
 
-#intro-q-8 {
+.intro-q-8 {
   font-size: 40px;
   text-align: right;
 }
 
-#intro-q-9 {
+.intro-q-9 {
   font-size: 40px;
   text-align: center;
 }
@@ -120,7 +128,15 @@ main {
 /* Footer Content Styling */
 footer {
   background-color: black;
-  color: white;
   padding: 50px;
   text-align: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  border-bottom: 1px solid;
 }
