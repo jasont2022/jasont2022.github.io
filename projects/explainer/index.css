@@ -6,15 +6,14 @@ body {
 .introduction {
   background-color: black;
   width: 100%;
-  padding: 1px 0;
-  height: 200vh;
+  height: 100vh;
 }
 
 .introduction a {
   text-decoration: none;
   color: white;
   display: block;
-  margin: 20vh auto;
+  margin-bottom: 10vh;
 }
 
 .introduction a:hover {
@@ -23,7 +22,6 @@ body {
 }
 
 .intro-q-1 {
-  margin-top: 0vh;
   font-size: 20px;
   text-align: left;
 }
@@ -49,7 +47,7 @@ body {
 }
 
 .intro-q-6 {
-  font-size: 30px;
+  font-size: 40px;
   text-align: right;
 }
 
@@ -58,21 +56,12 @@ body {
   text-align: left;
 }
 
-.intro-q-8 {
-  font-size: 40px;
-  text-align: right;
-}
-
-.intro-q-9 {
-  font-size: 40px;
-  text-align: center;
-}
-
 /*** Wrapper Styling ***/
 .wrapper {
   vertical-align: center;
   margin: 0 auto;
   width: 70%;
+  background-color: white;
 }
 
 
@@ -81,19 +70,18 @@ body {
 
 }
 
-#heading-1 {
+.heading-1 {
   text-align: center;
   margin: 5vh auto;
 }
 
-#heading-2 {
+.heading-2 {
 
 }
 
-#heading-3 {
+.heading-3 {
 
 }
-
 
 /* Main Content Styling */
 main {
@@ -111,18 +99,6 @@ main {
 
 .qa-answer {
 
-}
-
-#qa-1 {
-
-}
-
-#qa-2 {
-  
-}
-
-#qa-3 {
-  
 }
 
 /* Footer Content Styling */
