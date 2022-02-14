@@ -22,36 +22,43 @@ body {
 }
 
 .intro-q-1 {
+  font-family: 'Shadows Into Light', cursive;
   font-size: 20px;
   text-align: left;
 }
 
 .intro-q-2 {
+  font-family: 'Shadows Into Light', cursive;
   font-size: 20px;
   text-align: right;
 }
 
 .intro-q-3 {
+  font-family: 'Shadows Into Light', cursive;
   font-size: 20px;
   text-align: left;
 }
 
 .intro-q-4 {
+  font-family: 'Shadows Into Light', cursive;
   font-size: 30px;
   text-align: right;
 }
 
 .intro-q-5 {
+  font-family: 'Permanent Marker', cursive;
   font-size: 30px;
   text-align: left;
 }
 
 .intro-q-6 {
+  font-family: 'Permanent Marker', cursive;
   font-size: 40px;
   text-align: right;
 }
 
 .intro-q-7 {
+  font-family: 'Permanent Marker', cursive;
   font-size: 40px;
   text-align: left;
 }
@@ -67,38 +74,39 @@ body {
 
 /* Heading Content Styling */
 .heading {
-
+  font-weight: bold;
 }
 
 .heading-1 {
   text-align: center;
   margin: 5vh auto;
+  font-size: 60px;
 }
 
 .heading-2 {
-
+  font-size: 36px;
 }
 
 .heading-3 {
-
+  font-size: 48px;
 }
 
 /* Main Content Styling */
 main {
-  margin: 3vh auto;
+  margin: 6vh auto;
 }
 
 /* Question Div Styling */
 .qa-content {
-  margin: 3vh 0;
+  margin: 4vh 0;
 }
 
 .qa-question {
-
+  font-size: 24px;
 }
 
 .qa-answer {
-
+  font-size: 20px;
 }
 
 /* Footer Content Styling */
