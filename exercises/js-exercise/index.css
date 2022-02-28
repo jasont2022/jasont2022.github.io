@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(-45deg, #22E4AC, #08B3E5);
+  background-size: 400% 400%;
+  animation: boxColor 15s ease infinite;
+}
+
+section {
+  display:  flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:  100vh;
+}
+
+.button {
+  padding: 20px 50px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #FBD52D, #EF3A7B);
+  color: white;
+  font-size:  60px;
+  font-size: 20px;
+  text-align: center;
+  transition: all 100ms;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.gradientOn {
+  background: linear-gradient(90deg, #22E4AC, #08B3E5);
+  color: white;
+}
+
+.gradient {
+  background: linear-gradient(90deg, #FBD52D, #EF3A7B);
+  background-size: 400% 400%;
+  animation: boxColor 15s ease infinite;
+}
+
+@keyframes boxColor {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
