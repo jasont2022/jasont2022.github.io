@@ -35,7 +35,7 @@ section {
 .gradient {
   background: linear-gradient(90deg, #FBD52D, #EF3A7B);
   background-size: 400% 400%;
-  animation: boxColor 15s ease infinite;
+  animation: boxColor 15s ease-in infinite;
 }
 
 @keyframes boxColor {
