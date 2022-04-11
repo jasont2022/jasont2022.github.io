@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-size: 52px;
+}
+
+.background {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.app {
+  color: white;
+  font-size: 36px;
+  font-family: arial;
+  border-radius: 50px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.app1 {
+  background: linear-gradient(-45deg, #ffffff 10%, #5865f2 90%);
+  background-size: 400% 400%;
+	animation: boxColor 15s ease infinite;
+}
+
+.app2 {
+  background: linear-gradient(-90deg, #ffffff, #43CC47 100%);
+  background-size: 400% 400%;
+	animation: boxColor 15s ease infinite;
+}
+
+.app3 {
+  background: linear-gradient(-45deg, #ffffff, #1877f2 100%);
+  background-size: 400% 400%;
+	animation: boxColor 15s ease infinite;
+}
+
+.app4 {
+  background: linear-gradient(45deg,#4c5fd7, #7232bd,#c32aa3, #f46f30, #ffdc7d);
+  background-size: 400% 400%;
+	animation: boxColor 15s ease infinite;
+}
+
+.app5 {
+  background: linear-gradient(45deg, #ffffff, #ff0000 100%);
+  background-size: 400% 400%;
+	animation: boxColor 15s ease infinite;
+}
+
+@keyframes boxColor {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}
