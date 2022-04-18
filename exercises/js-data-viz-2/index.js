@@ -3,6 +3,10 @@ const studySessions = [
   { date: '4/7', totalMins: 255, cis545: 75, cis188: 90, ese451: 0, dsgn234: 90, dsgn266: 0, engl135: 0, ealc064: 0 },
   { date: '4/8', totalMins: 240, cis545: 120, cis188: 0, ese451: 0, dsgn234: 0, dsgn266: 0, engl135: 0, ealc064: 120 },
   { date: '4/9', totalMins: 180, cis545: 0, cis188: 0, ese451: 0, dsgn234: 90, dsgn266: 0, engl135: 0, ealc064: 90 },
+  { date: '4/10', totalMins: 300, cis545: 90, cis188: 0, ese451: 0, dsgn234: 0, dsgn266: 0, engl135: 135, ealc064: 75 },
+  { date: '4/11', totalMins: 240, cis545: 0, cis188: 0, ese451: 0, dsgn234: 120, dsgn266: 0, engl135: 120, ealc064: 0 },
+  { date: '4/12', totalMins: 120, cis545: 0, cis188: 0, ese451: 0, dsgn234: 0, dsgn266: 0, engl135: 120, ealc064: 0 },
+  { date: '4/13', totalMins: 120, cis545: 0, cis188: 120, ese451: 0, dsgn234: 0, dsgn266: 0, engl135: 0, ealc064: 0 },
 ]
 
 const colorMap = {

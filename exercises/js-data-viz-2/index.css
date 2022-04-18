@@ -28,6 +28,8 @@ h1 {
   margin-bottom: 50px;
 }
 
+/** go to inspect for the gradient code for the percentages of the color */
+
 .date1 {
   background: linear-gradient(-45deg, #ACB6E5, #0396FF);
   /* background-size: 400% 400%;
