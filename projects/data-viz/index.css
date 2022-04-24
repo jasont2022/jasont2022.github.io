@@ -1,0 +1,97 @@
+body {
+  background: linear-gradient(135deg, #F9D976 22.92%, #E899DC 100%);
+  background-size: 400% 400%;
+	animation: boxColor 60s ease-out infinite;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: arial;
+  font-size: 52px;
+  margin-bottom: 1.5em;
+}
+
+.background {
+  max-width: 60vw;
+  margin: 0 auto;
+}
+
+.row1 {
+  display: flex;
+  margin-bottom: 7em;
+  justify-content: space-between;
+} 
+
+.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  color: white;
+  font-size: 28px;
+  font-family: arial;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: white solid 3px;
+}
+
+.date:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+/** go to inspect for the gradient code for the percentages of the color */
+
+.date1 {
+  height: 150px;
+  width: 150px;
+}
+
+.date2 {
+  height: 255px;
+  width: 255px;
+}
+
+.date3 {
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+}
+
+.date4 {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.date5 {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.date6 {
+  height: 240px;
+  width: 240px;
+}
+
+.date7 {
+  height: 120px;
+  width: 120px;
+}
+
+.date8 {
+  height: 120px;
+  width: 120px;
+}
+
+@keyframes boxColor {
+	0% { background-position: 0% 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0% 50%; }
+}

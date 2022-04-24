@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+}
+
+#canvas {
+  background: linear-gradient(135deg, #F9D976 22.92%, #E899DC 100%);
+}
