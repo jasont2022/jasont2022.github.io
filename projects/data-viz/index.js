@@ -11,11 +11,11 @@ const studySessions = [
 ]
 
 const colorArray = [
-  { name: 'Data Science', color: '#EC9F05' },
-  { name: 'DevOps', color: '#FFDD00' },
-  { name: 'Art of the Web', color: '#FB7BA2' },
-  { name: 'English', color: '#FBA8A4' },
-  { name: 'Sushi and Ramen', color: '#E899DC' },
+  { code: 'CIS 545', name: 'Data Science', color: '#EC9F05' },
+  { code: 'CIS 188', name: 'DevOps', color: '#FFDD00' },
+  { code: 'DSGN 234', name: 'Art of the Web', color: '#FB7BA2' },
+  { code: 'ENGL 135', name: 'English', color: '#FBA8A4' },
+  { code: 'EALC 064', name: 'Sushi and Ramen', color: '#E899DC' },
 ]
 
 // get the background container
@@ -50,7 +50,7 @@ let i = 0
 const button = document.createElement("div")
 const buttonDiv = container.appendChild(button)
 buttonDiv.classList.add("button")
-buttonDiv.innerHTML = 'Learn More'
+buttonDiv.innerHTML = 'Learn More!'
 
 // create a legend section
 const legend = document.createElement("div")
@@ -95,7 +95,14 @@ colorArray.forEach(colorItem => {
   newItem.classList.add("color")
   newItem.classList.add("color" + [i])
 
-  const { name, color } = colorItem
+  const { name, color, code } = colorItem
   colorDiv.innerHTML = `${name}`
   colorDiv.style.backgroundColor = `${color}`
+
+  colorDiv.addEventListener("mouseover", () => {
+    colorDiv.innerHTML = `${code}`
+  });
+  colorDiv.addEventListener("mouseleave", () => {
+    colorDiv.innerHTML = `${name}`
+  });
 })
