@@ -98,6 +98,77 @@ h1 {
   cursor: pointer;
 }
 
+.legend {
+  color: white;
+  font-size: 32px;
+  font-family: arial;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shapes {
+  /* border: white solid 1px;
+  border-radius: 15px; */
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 800px;
+  margin: 25px 0;
+}
+
+.shape {
+  font-size: 20px;
+  width: 150px;
+  height: 150px;
+  border: white solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weekend {
+  border-radius: 50%;
+}
+
+.size:hover {
+  border-radius: 0%;
+}
+
+.shape:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.colors {
+  border: white solid 1px;
+  border-radius: 15px;
+  padding: 25px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  text-align: left;
+}
+
+.color {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 @keyframes boxColor {
   0% {
     background-position: 0% 50%;
