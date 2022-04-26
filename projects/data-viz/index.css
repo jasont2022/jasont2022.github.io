@@ -46,11 +46,11 @@ h1 {
 }
 
 .date2 {
-  background: linear-gradient(65deg, #F9D976 0%, #FCE043 50%, #FB7BA2 100%);
+  background: linear-gradient(65deg, #F9D976 0%, #FFDD00 50%, #FB7BA2 100%);
 }
 
 .date3 {
-  background: linear-gradient(135deg, #F9D976 22.92%, #E899DC 100%);
+  background: linear-gradient(45deg, #F9D976 30%, #E899DC 100%);
   border-radius: 50%;
 }
 
@@ -60,20 +60,20 @@ h1 {
 }
 
 .date5 {
-  background: linear-gradient(65deg, #F9D976 0%, #FCE043 50%, #FB7BA2 100%);
+  background: linear-gradient(80deg, #F9D976 20%, #FBA8A4 50%, #E899DC 100%);
   border-radius: 50%;
 }
 
 .date6 {
-  background: linear-gradient(120deg, #FB7BA2 0%, #E899DC 100%);
+  background: linear-gradient(45deg, #FB7BA2 20%, #FBA8A4 100%);
 }
 
 .date7 {
-  background: linear-gradient(120deg, #FB7BA2 0%, #E899DC 100%);
+  background-color: #FBA8A4;
 }
 
 .date8 {
-  background: linear-gradient(120deg, #FB7BA2 0%, #E899DC 100%);
+  background-color: #FFDD00;
 }
 
 .button {
@@ -124,7 +124,7 @@ h1 {
   font-size: 20px;
   width: 150px;
   height: 150px;
-  border: white solid 1px;
+  border: white solid 2px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,7 +144,7 @@ h1 {
 }
 
 .colors {
-  border: white solid 1px;
+  border: white solid 2px;
   border-radius: 15px;
   padding: 25px;
   width: 1000px;
@@ -162,6 +162,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: white solid 1px;
 }
 
 .color:hover {
