@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial;
+  font-size: 60px;
+}
+
+.iphone {
+  background-color:#F2F3F5;
+  padding: 10px;
+  width: auto;
+  display: flex;
+}
+
+.app {
+  width: 55px;
+  height: 55px;
+  margin-left: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.current {
+  border: #D3D3D3 solid 3px;
+}
