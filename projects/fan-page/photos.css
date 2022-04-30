@@ -2,12 +2,6 @@ body {
   margin: 0;
 }
 
-h1 {
-  text-align: center;
-  font-family: arial;
-  font-size: 60px;
-}
-
 .iphone {
   background-color:#F2F3F5;
   padding: 10px;
@@ -32,4 +26,37 @@ h1 {
 
 .current {
   border: #D3D3D3 solid 3px;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial;
+  font-size: 60px;
+  margin: 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dbdbdb;
+  margin-bottom: 50px;
+}
+
+.header p {
+  font-family: arial;
+  font-size: 16px;
+}
+
+.content {
+  margin-bottom: 50px;
+  display: grid;
 }
